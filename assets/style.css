@@ -26,6 +26,12 @@ ul {
 
 }
 
+.display-2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.25rem;
+    font-weight: 600;
+}
+
 .display-3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -83,6 +89,7 @@ ul {
 .eyebrow-links ul {
     display:inline-flex;
     margin-top: 1rem;
+    margin-left:5%;
 }
 
 .eyebrow .nav-item a {
@@ -138,6 +145,19 @@ ul {
 .archives hr {
     border-top: 1px solid white;
     width: 80%;
+}
+
+.archives h4 {
+    letter-spacing: 5.5px;
+    padding-top:3%;
+}
+
+
+
+/* MAIN ARTICLES SECTION */ 
+
+.articles h1 {
+    padding-top: 3%;
 }
 
 
