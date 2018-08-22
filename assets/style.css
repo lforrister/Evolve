@@ -1,0 +1,69 @@
+/* GENERAL USE */ 
+.text-white {
+    color:white !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:none;
+}
+
+ul {
+    list-style:none;
+}
+
+.display-4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; 
+    font-size: 1rem;
+}
+
+/* NAVBAR - EYEBROW STYLES */
+
+.eyebrow .navbar {
+    padding: .5rem 0;
+    background: #333333;
+    transition:none;
+    min-height:77px;
+}
+
+.eyebrow .menu-logo {
+    margin-right:auto;
+}
+
+.eyebrow .menu-logo .navbar-brand {
+    display:flex;
+    margin-left: 5rem;
+    padding: 0;
+    transition: padding .2s;
+    min-height: 3.8rem;
+    align-items:center;
+}
+
+
+.eyebrow .menu-logo .navbar-brand .navbar-logo {
+    font-size: 4rem;
+    transition: font size 0.25s;
+}
+
+.eyebrow-links {
+    -webkit-justify-content: flex-end;
+    padding-right: 5rem;
+    width:auto;
+}
+
+.eyebrow-links ul {
+    display:inline-flex;
+    margin-top: 1rem;
+}
+
+.eyebrow .nav-item a {
+    display:block;
+    align-items:center;
+    justify-content:center;
+    padding: 0.7rem 0 !important;
+    margin: 0rem .65rem !important;
+}
