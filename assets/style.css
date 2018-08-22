@@ -25,6 +25,13 @@ ul {
     font-weight:600;
 
 }
+
+.display-3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
 .display-4 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700; 
@@ -122,33 +129,16 @@ ul {
     width: 100%;
 }
 
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
+.archives h3 {
+    letter-spacing:11.5px;
+    padding-top: 5%;
+    
 }
 
-.sidenav a:hover {
-    color: #f1f1f1;
+.archives hr {
+    border-top: 1px solid white;
+    width: 80%;
 }
 
-.main {
-    margin-left: 160px;
-    /* Same as the width of the sidenav */
-    font-size: 28px;
-    /* Increased text to enable scrolling */
-    padding: 0px 10px;
-}
 
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-    .sidenav a {
-        font-size: 18px;
-    }
-}
 
-</style>
