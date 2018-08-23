@@ -163,12 +163,17 @@ ul {
 
 /* MAIN ARTICLES SECTION */ 
 
+.main-page {
+    margin-top:-8px;
+}
+
 .articles h1 {
     padding-top: 3%;
 }
 
 .article-cards {
     padding:0 5%;
+    background-color: rgba(248, 251, 255, 0.75);
 }
 
 .card-padding {
@@ -224,3 +229,103 @@ ul {
     text-align: center;
 }
 
+
+
+/* TABBED WIDGET */
+
+.etabs {
+    margin: 0;
+    padding: 0;
+}
+
+.tab {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    background: #eee;
+    border: solid 1px #999;
+    border-bottom: none;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+}
+
+.tab a {
+    font-size: 14px;
+    line-height: 2em;
+    display: block;
+    padding: 0 10px;
+    outline: none;
+}
+
+.tab a:hover {
+    text-decoration: underline;
+}
+
+.tab.active {
+    background: #fff;
+    padding-top: 6px;
+    position: relative;
+    top: 1px;
+    border-color: #666;
+}
+
+.tab a.active {
+    font-weight: bold;
+}
+
+.tab-container .panel-container {
+    background: #fff;
+    border: solid #666 1px;
+    padding: 10px;
+    -moz-border-radius: 0 4px 4px 4px;
+    -webkit-border-radius: 0 4px 4px 4px;
+}
+
+
+
+/* TABBED WIDGET */
+
+.demoHeaders {
+    margin-top: 2em;
+}
+
+#dialog-link {
+    padding: .4em 1em .4em 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+#dialog-link span.ui-icon {
+    margin: 0 5px 0 0;
+    position: absolute;
+    left: .2em;
+    top: 50%;
+    margin-top: -8px;
+}
+
+#icons {
+    margin: 0;
+    padding: 0;
+}
+
+#icons li {
+    margin: 2px;
+    position: relative;
+    padding: 4px 0;
+    cursor: pointer;
+    float: left;
+    list-style: none;
+}
+
+#icons span.ui-icon {
+    float: left;
+    margin: 0 4px;
+}
+
+.fakewindowcontain .ui-widget-overlay {
+    position: absolute;
+}
+
+select {
+    width: 200px;
+}
