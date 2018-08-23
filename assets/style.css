@@ -44,6 +44,13 @@ ul {
     font-size: 1rem;
 }
 
+.display-4-thin {
+    font-family: 'Raleway', sans-serif;
+    font-weight:300;
+
+}
+
+
 /* NAVBAR STYLES */
 
 .navbar {
@@ -160,5 +167,20 @@ ul {
     padding-top: 3%;
 }
 
+.article-cards {
+    padding:0 5%;
+}
+
+.card-padding {
+    padding-top:5%;
+}
+
+.evolve-btn {
+    border-radius:100px;
+    background-color:black;
+    border-color:black;
+    color:white;
+    padding: 4% 25%;
+}
 
 
