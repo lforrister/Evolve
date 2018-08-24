@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
     <title> Evolve </title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
     <link href="assets/jquery-ui/jquery-ui.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800" rel="stylesheet">
-    
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800" rel="stylesheet">    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
 
@@ -288,13 +289,49 @@
                             <div id="tabs">
                                 <h1 class="display-25 text-center"> CROWD <strong> FAVORITES </strong> </h1>
                                 <ul>
-                                    <li><a href="#tabs-1">Likes</a></li>
+                                    <li><a href="#tabs-1">Most Likes</a></li>
                                     <li><a href="#tabs-2">Shares</a></li>
                                     <li><a href="#tabs-3">Comments</a></li>
                                 </ul>
-                                <div id="tabs-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat.</div>
+
+
+                                <div id="tabs-1"> 
+                                    <div class="w3-display-container">
+                                        <div class="row mySlides">
+                                            <div class="col-4">
+                                                <img src="assets/images/image-01.jpg" style="width:100%">
+                                            </div> 
+                                            <div class="col-8"> <h1> TEST TEST </h1> </div>
+                                        </div>
+                                        <div class="row mySlides">
+                                            <div class="col-4">
+                                                <img src="assets/images/image-01.jpg" style="width:100%">
+                                            </div> 
+                                            <div class="col-8"> <h1> TEST TEST 2 </h1> </div>
+                                        </div>
+                                        <div class="row mySlides">
+                                            <div class="col-4">
+                                                <img src="assets/images/image-01.jpg" style="width:100%">
+                                            </div> 
+                                            <div class="col-8"> <h1> TEST TEST 3 </h1> </div>
+                                        </div>
+                                       
+
+                                        <div class="text-center w3-container w3-section w3-large w3-display-bottommiddle" style="width:100%; padding-left:5%; padding-right:5%;">
+                                            <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
+                                            <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
+                                            <span style="border: 2px solid black;" class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                                            <span style="border: 2px solid black;" class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                                            <span style="border: 2px solid black;" class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                                        </div>
+                                
+                                    </div>
+                            
+                                </div>
+                                    
+
+
+
                                 <div id="tabs-2">Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet ornare, felis. Maecenas
                                     scelerisque sem non nisl. Fusce sed lorem in enim dictum bibendum.</div>
                                 <div id="tabs-3">Nam dui erat, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget,
@@ -304,13 +341,18 @@
                     </div>
                 </div>
             </div>
+
+            
     </section>
 
 
 
 
     <script src="assets/jquery-ui/jquery-ui.js"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
     <script src="assets/script.js"></script>
+
+    
 
 
     </body>
