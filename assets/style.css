@@ -13,6 +13,7 @@ a {
 
 a:hover {
     text-decoration:none;
+    background: linear-gradient(to right, #611D67, #861A8D);
 }
 
 ul {
@@ -22,7 +23,7 @@ ul {
 .display-1 {
     font-family: 'Raleway', sans-serif;
     font-size: 4.25rem;
-    font-weight:600;
+    font-weight:500;
 
 }
 
@@ -30,6 +31,12 @@ ul {
     font-family: 'Raleway', sans-serif;
     font-size: 3.25rem;
     font-weight: 600;
+}
+
+.display-25 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 400;
 }
 
 .display-3 {
@@ -172,7 +179,7 @@ ul {
 }
 
 .article-cards {
-    padding:0 5%;
+    padding:0 5% 6% 5%;
     background-color: rgba(248, 251, 255, 0.75);
 }
 
@@ -285,8 +292,8 @@ ul {
 
 /* TABBED WIDGET */
 
-.demoHeaders {
-    margin-top: 2em;
+.tab-widget {
+    padding: 7% 5%;
 }
 
 #dialog-link {
@@ -329,3 +336,12 @@ ul {
 select {
     width: 200px;
 }
+
+.tab-widget h1 {
+    letter-spacing: 2px;
+    padding-top: 5%;
+    color:white;
+    background-color: black;
+    margin-bottom: 0;
+}
+
