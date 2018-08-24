@@ -13,7 +13,12 @@ a {
 
 a:hover {
     text-decoration:none;
-    background: linear-gradient(to right, #611D67, #861A8D);
+}
+
+.btn-primary:hover {
+    background-color: #D2EEFF !important;
+    color: #181818;
+
 }
 
 ul {

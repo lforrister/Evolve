@@ -391,7 +391,7 @@ works properly when clicked or hovered */
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
 	border: 1px solid #c5c5c5;
-	background: #f6f6f6;
+	background: #F8FBFF;
 	font-weight: normal;
 	color: #454545;
 }
@@ -442,9 +442,9 @@ a.ui-button:active,
 .ui-button:active,
 .ui-button.ui-state-active:hover {
 	border: 1px solid #611D67;
-	background: linear-gradient(to right, #611D67, #861A8D);
+	background-color: #D2EEFF;
 	font-weight: normal;
-	color: #ffffff;
+	color: #181818 !important;
 }
 .ui-icon-background,
 .ui-state-active .ui-icon-background {
@@ -454,7 +454,7 @@ a.ui-button:active,
 .ui-state-active a,
 .ui-state-active a:link,
 .ui-state-active a:visited {
-	color: #ffffff;
+	color: #181818;
 	text-decoration: none;
 }
 
