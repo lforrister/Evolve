@@ -364,6 +364,37 @@ select {
     border-radius: 50%;
 }
 
+.mySlides h3 {
+    font-size: 2rem;
+
+}
+
+.mySlides hr {
+    border-top: 1.5px solid rgba(0,0,0,.1);
+    width:95%;
+}
+
+.mySlides p {
+    font-family: 'Raleway', sans-serif;
+    font-weight:300;
+    font-size:1rem;
+    line-height:2;
+    width: 90%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.mySlides .evolve-btn {
+    padding:1% 8%;
+    color:white;
+}
+
+.mySlides .evolve-btn:hover {
+    color:#181818;
+}
+
+/* w3 school styles */
+
 .w3-badge, .w3-tag {
     color: #fff;
     display:inline-block;
@@ -392,6 +423,7 @@ select {
 
 .w3-tooltip, .w3-display-container {
     position: relative;
+    margin:3%;
 }
 
 .w3-left {
