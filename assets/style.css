@@ -62,6 +62,12 @@ ul {
 
 }
 
+.display-5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.6rem;
+    font-weight:600;
+}
+
 
 /* NAVBAR STYLES */
 
@@ -180,13 +186,18 @@ ul {
 .year:after {
     content:"";
     display: inline-block;
-    border: 7px solid transparent;
-    border-top: 8px solid white;
+    border: 6px solid transparent;
+    border-top: 5px solid white;
     border-bottom: 0 none;
+    margin-bottom: 2px;
 }
 
-.year {
+.year, #posts18, #posts17, #posts16 {
     cursor: pointer;
+}
+
+.posts {
+    padding: 3% 0 2% 0;
 }
 
 
@@ -464,3 +475,5 @@ select {
     display: table;
     clear:both;
 }
+
+

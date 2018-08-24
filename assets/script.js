@@ -1,4 +1,23 @@
-console.log("SCRIPT.JS TEST TEST TEST");
+$(document).ready(function () {
+    console.log("jQuery Working");
+    $("#posts18").hide();
+    $("#posts17").hide();
+    $("#posts16").hide();
+    $(".jan").hide();
+    $(".feb").hide();
+    $(".march2").hide();
+    $(".april2").hide();
+    $(".may2").hide();
+    $(".june2").hide();
+    $(".july2").hide();
+    $(".aug").hide();
+    $(".sept").hide();
+    $(".oct").hide();
+    $(".nov").hide();
+    $(".dec").hide();
+    
+
+});
 
 
 
@@ -32,12 +51,6 @@ $("#dialog-link, #icons li").hover(
 
 
 // Archive Toggle 
-$(document).ready(function() {
-    console.log("jQuery Working");
-    $("#posts18").hide();
-    $("#posts17").hide();
-    $("#posts16").hide();
-});
 
 $("#year-18").click(function() {
     $("#posts18").toggle();
@@ -56,6 +69,187 @@ $("#year-16").click(function () {
     $("#posts18").hide();
     $("#posts17").hide();
 });
+
+$(".january").click(function () {
+   $(".jan").toggle();
+   $(".feb").hide();
+   $(".march2").hide();
+   $(".april2").hide();
+   $(".may2").hide();
+   $(".june2").hide();
+   $(".july2").hide();
+   $(".aug").hide();
+   $(".sept").hide();
+   $(".oct").hide();
+   $(".nov").hide();
+   $(".dec").hide();
+});
+
+$(".february").click(function () {
+    $(".feb").toggle();
+    $(".jan").hide();
+    $(".march2").hide();
+    $(".april2").hide();
+    $(".may2").hide();
+    $(".june2").hide();
+    $(".july2").hide();
+    $(".aug").hide();
+    $(".sept").hide();
+    $(".oct").hide();
+    $(".nov").hide();
+    $(".dec").hide();
+});
+
+$(".march").click(function () {
+    $(".march2").toggle();
+    $(".jan").hide();
+    $(".feb").hide();
+    $(".april2").hide();
+    $(".may2").hide();
+    $(".june2").hide();
+    $(".july2").hide();
+    $(".aug").hide();
+    $(".sept").hide();
+    $(".oct").hide();
+    $(".nov").hide();
+    $(".dec").hide();
+});
+
+$(".april").click(function () {
+    $(".april2").toggle();
+    $(".jan").hide();
+    $(".feb").hide();
+    $(".march2").hide();
+    $(".may2").hide();
+    $(".june2").hide();
+    $(".july2").hide();
+    $(".aug").hide();
+    $(".sept").hide();
+    $(".oct").hide();
+    $(".nov").hide();
+    $(".dec").hide();
+});
+
+$(".may").click(function () {
+    $(".may2").toggle();
+    $(".jan").hide();
+    $(".feb").hide();
+    $(".march2").hide();
+    $(".april2").hide();
+    $(".june2").hide();
+    $(".july2").hide();
+    $(".aug").hide();
+    $(".sept").hide();
+    $(".oct").hide();
+    $(".nov").hide();
+    $(".dec").hide();
+});
+
+$(".june").click(function () {
+    $(".june2").toggle();
+    $(".jan").hide();
+    $(".feb").hide();
+    $(".march2").hide();
+    $(".april2").hide();
+    $(".may2").hide();
+    $(".july2").hide();
+    $(".aug").hide();
+    $(".sept").hide();
+    $(".oct").hide();
+    $(".nov").hide();
+    $(".dec").hide();
+});
+
+$(".july").click(function () {
+    $(".july2").toggle();
+    $(".jan").hide();
+    $(".feb").hide();
+    $(".march2").hide();
+    $(".april2").hide();
+    $(".may2").hide();
+    $(".june2").hide();
+    $(".aug").hide();
+    $(".sept").hide();
+    $(".oct").hide();
+    $(".nov").hide();
+    $(".dec").hide();
+});
+
+$(".august").click(function () {
+    $(".aug").toggle();
+    $(".jan").hide();
+    $(".feb").hide();
+    $(".march2").hide();
+    $(".april2").hide();
+    $(".may2").hide();
+    $(".june2").hide();
+    $(".july2").hide();
+    $(".sept").hide();
+    $(".oct").hide();
+    $(".nov").hide();
+    $(".dec").hide();
+});
+
+$(".september").click(function () {
+    $(".sept").toggle();
+    $(".jan").hide();
+    $(".feb").hide();
+    $(".march2").hide();
+    $(".april2").hide();
+    $(".may2").hide();
+    $(".june2").hide();
+    $(".july2").hide();
+    $(".aug").hide();
+    $(".oct").hide();
+    $(".nov").hide();
+    $(".dec").hide();
+});
+
+$(".october").click(function () {
+    $(".oct").toggle();
+    $(".jan").hide();
+    $(".feb").hide();
+    $(".march2").hide();
+    $(".april2").hide();
+    $(".may2").hide();
+    $(".june2").hide();
+    $(".july2").hide();
+    $(".aug").hide();
+    $(".sept").hide();
+    $(".nov").hide();
+    $(".dec").hide();
+});
+
+$(".november").click(function () {
+    $(".nov").toggle();
+    $(".jan").hide();
+    $(".feb").hide();
+    $(".march2").hide();
+    $(".april2").hide();
+    $(".may2").hide();
+    $(".june2").hide();
+    $(".july2").hide();
+    $(".aug").hide();
+    $(".sept").hide();
+    $(".oct").hide();
+    $(".dec").hide();
+});
+
+$(".december").click(function () {
+    $(".dec").toggle();
+    $(".jan").hide();
+    $(".feb").hide();
+    $(".march2").hide();
+    $(".april2").hide();
+    $(".may2").hide();
+    $(".june2").hide();
+    $(".july2").hide();
+    $(".aug").hide();
+    $(".sept").hide();
+    $(".oct").hide();
+    $(".nov").hide();
+});
+
 
 
 // Carousel:
