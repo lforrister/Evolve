@@ -13,11 +13,6 @@ $("#slider").slider({
 });
 
 
-
-
-
-
-
 $("#menu").menu();
 
 
@@ -34,6 +29,33 @@ $("#dialog-link, #icons li").hover(
         $(this).removeClass("ui-state-hover");
     }
 );
+
+
+// Archive Toggle 
+$(document).ready(function() {
+    console.log("jQuery Working");
+    $("#posts18").hide();
+    $("#posts17").hide();
+    $("#posts16").hide();
+});
+
+$("#year-18").click(function() {
+    $("#posts18").toggle();
+    $("#posts17").hide();
+    $("#posts16").hide();
+});
+
+$("#year-17").click(function () {
+    $("#posts17").toggle();
+    $("#posts18").hide();
+    $("#posts16").hide();
+});
+
+$("#year-16").click(function () {
+    $("#posts16").toggle();
+    $("#posts18").hide();
+    $("#posts17").hide();
+});
 
 
 // Carousel:

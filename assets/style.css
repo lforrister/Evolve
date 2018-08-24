@@ -157,7 +157,7 @@ ul {
 
 .archives h3 {
     letter-spacing:11.5px;
-    padding-top: 5%;
+    padding-top: 17%;
     
 }
 
@@ -171,6 +171,23 @@ ul {
     padding-top:3%;
 }
 
+.archives h6 {
+    letter-spacing: 3px;
+    font-size:0.9rem;
+}
+
+
+.year:after {
+    content:"";
+    display: inline-block;
+    border: 7px solid transparent;
+    border-top: 8px solid white;
+    border-bottom: 0 none;
+}
+
+.year {
+    cursor: pointer;
+}
 
 
 /* MAIN ARTICLES SECTION */ 
