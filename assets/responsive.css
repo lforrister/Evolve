@@ -32,4 +32,104 @@
     .main-menu .nav-item {
         padding: 0;
     }
+
+    .sidenav {
+        display:none;
+    }
+
+    .sidebar {
+        display:none;
+    }
+
+    .newsletter {
+        display:none;
+    }
+
+    .mySlides h3 {
+        padding-top:5%;
+        font-size:1.5rem;
+    }
+
+    .mySlides p {
+        font-size: 0.9rem;
+    }
+
+    .mySlides img {
+        width:80%;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+    }
+
+    hr {
+        margin:0.5rem;
+    }
+
+    .w3-badge {
+        display:none;
+    }
+
+    .w3-display-bottommiddle {
+        bottom:auto;
+    }
+
+    .ui-tabs .ui-tabs-nav li {
+        width:105px;
+
+    }
+
+    .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+        width:0;
+        padding: .5rem;
+        
+    }
+
+    .tab-widget h1 {
+        font-size:2rem;
+    }
+
+    .ui-tabs .ui-tabs-nav {
+        border-radius:0;
+    }
+}
+
+/* ipad */ 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .main-menu .nav-item {
+        padding: 0 20px;
+    }
+
+        .sidenav {
+            display: none;
+        }
+
+        .sidebar {
+            display: none;
+        }
+
+        .newsletter {
+            display: none;
+        }
+
+
+}
+
+/* ipad pro */
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    .sidenav {
+        display:visible;
+    }
+
+}
+
+@media only screen and (min-width: 1450px) {
+
+    .w3-display-bottommiddle {
+        position: absolute;
+        left:50%;
+        bottom:0;
+        transform: translate(-50%,0%);
+    }
 }

@@ -167,6 +167,10 @@ ul {
     width: 100%;
 }
 
+/* .sidebar {
+    background-color:black;
+} */
+
 .archives h3 {
     letter-spacing:11.5px;
     padding-top: 17%;
@@ -418,6 +422,10 @@ select {
     margin-right: auto;
 }
 
+.mySlides img {
+    width:100%;
+}
+
 .mySlides .evolve-btn {
     padding:1% 8%;
     color:white;
@@ -448,12 +456,7 @@ select {
     padding: 0.01em, 16px;
 }
 
-.w3-display-bottommiddle {
-    position:absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translate(-50%, 0%);
-}
+
 
 .w3-tooltip, .w3-display-container {
     position: relative;
