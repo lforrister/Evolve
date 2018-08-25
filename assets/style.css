@@ -232,7 +232,7 @@ ul {
 } */
 
 .newsletter h3 {
-    letter-spacing:6.5px;
+    letter-spacing:4.5px;
     padding-top:3%
 }
 
@@ -253,10 +253,10 @@ ul {
     padding: 3% 5% 8% 5%;
 }
 
-.email-signup {
+/* .email-signup {
     margin-left:8%;
     margin-right:8%;
-}
+} */
 
 
 .spacer-top {

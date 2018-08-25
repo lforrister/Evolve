@@ -128,17 +128,16 @@
 
         }
 
+    }
+
+
 /* ipad pro */
 
-@media only screen and (min-width: 992px) and (max-width: 1366px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .sidenav {
         display:visible;
     }
 
-    .newsletter h3 {
-        letter-spacing:3px;
-        font-size:0.8rem;
-    }
 
 
 
@@ -152,4 +151,14 @@
         bottom:0;
         transform: translate(-50%,0%);
     }
+
+    .email-signup {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .newsletter h3 {
+        letter-spacing: 8.5px;
+    }
+
 }
