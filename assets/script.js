@@ -15,6 +15,7 @@ $(document).ready(function () {
     $(".oct").hide();
     $(".nov").hide();
     $(".dec").hide();
+    $("#login-module-nav").hide();
     
 
 });
@@ -327,3 +328,12 @@ function showDivs(n, no) {
     x[slideIndex[no] - 1].style.display = "flex";
 }
 
+// Pop Up:
+
+$(".submit-btn").click(function() {
+    $("#email-popup").show();
+});
+
+$(".popup-close").click(function() {
+    $("#email-popup").hide();
+});
