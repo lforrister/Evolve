@@ -438,7 +438,7 @@ form {
 /* TABBED WIDGET */
 
 .tab-widget {
-    padding: 5%;
+    padding: 5% 5% 7% 5%;
 }
 
 #dialog-link {
@@ -588,3 +588,14 @@ select {
 }
 
 
+/* FOOTER */
+.footer {
+    position:absolute;
+    width:100%;
+    background-color:#111;
+    color:white; 
+}
+
+.footer p {
+    margin-top:1rem;
+}
