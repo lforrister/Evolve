@@ -7,6 +7,11 @@
     text-align:center;
 }
 
+.center {
+    margin-left:auto;
+    margin-right:auto;
+}
+
 a {
     text-decoration: none;
 }
@@ -173,7 +178,7 @@ ul {
     
 }
 
-.archives hr {
+.archives hr, {
     border-top: 1px solid white;
     width: 80%;
 }
@@ -198,12 +203,26 @@ ul {
     margin-bottom: 2px;
 }
 
-.year, #posts18, #posts17, #posts16 {
+.year, .posts18, .posts17, .posts16 {
     cursor: pointer;
 }
 
 .posts {
     padding: 3% 0 1% 0;
+}
+
+/* Archives - Mobile */
+.archives-mobile {
+    background-color:black;
+    display:none;
+    padding-bottom: 5%;
+}
+
+.archives-mobile h3 {
+   padding-top:8%;
+   padding-bottom: 3%;
+   letter-spacing:5px;
+   font-size:1.25rem;
 }
 
 

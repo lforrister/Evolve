@@ -1,8 +1,8 @@
 $(document).ready(function () {
     console.log("jQuery Working");
-    $("#posts18").hide();
-    $("#posts17").hide();
-    $("#posts16").hide();
+    $(".posts18").hide();
+    $(".posts17").hide();
+    $(".posts16").hide();
     $(".jan").hide();
     $(".feb").hide();
     $(".march2").hide();
@@ -19,6 +19,15 @@ $(document).ready(function () {
 
 });
 
+// Archives Mobile
+// $(".archives").clone().appendTo($(".archives-mobile"));
+// $(".archives h3").clone().appendTo($(".am-header"));
+$(".year-18").clone().appendTo($(".year-18-mobile"));
+$(".posts18").clone().appendTo($(".year-18-mobile"));
+$(".year-17").clone().appendTo($(".year-17-mobile"));
+$(".posts17").clone().appendTo($(".year-17-mobile"));
+$(".year-16").clone().appendTo($(".year-16-mobile"));
+$(".posts16").clone().appendTo($(".year-16-mobile"));
 
 
 
@@ -52,22 +61,22 @@ $("#dialog-link, #icons li").hover(
 
 // Archive Toggle 
 
-$("#year-18").click(function() {
-    $("#posts18").toggle();
-    $("#posts17").hide();
-    $("#posts16").hide();
+$(".year-18").click(function() {
+    $(".posts18").toggle();
+    $(".posts17").hide();
+    $(".posts16").hide();
 });
 
-$("#year-17").click(function () {
-    $("#posts17").toggle();
-    $("#posts18").hide();
-    $("#posts16").hide();
+$(".year-17").click(function () {
+    $(".posts17").toggle();
+    $(".posts18").hide();
+    $(".posts16").hide();
 });
 
-$("#year-16").click(function () {
-    $("#posts16").toggle();
-    $("#posts18").hide();
-    $("#posts17").hide();
+$(".year-16").click(function () {
+    $(".posts16").toggle();
+    $(".posts18").hide();
+    $(".posts17").hide();
 });
 
 $(".january").click(function () {
@@ -249,6 +258,7 @@ $(".december").click(function () {
     $(".oct").hide();
     $(".nov").hide();
 });
+
 
 
 

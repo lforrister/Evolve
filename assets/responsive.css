@@ -91,6 +91,10 @@
     .ui-tabs .ui-tabs-nav {
         border-radius:0;
     }
+
+    .archives-mobile {
+        display:block;
+    }
 }
 
 /* ipad */ 
@@ -112,8 +116,17 @@
             display: none;
         }
 
+        .archives-mobile {
+            display: block;
+        }
 
-}
+        .archives-mobile h3 {
+            font-size:1.5rem;
+            padding-top:5%;
+            padding-bottom:2%;
+
+
+        }
 
 /* ipad pro */
 
@@ -121,6 +134,7 @@
     .sidenav {
         display:visible;
     }
+
 
 }
 
