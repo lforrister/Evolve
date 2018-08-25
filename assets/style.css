@@ -242,8 +242,10 @@ ul {
     margin-right:auto;
     letter-spacing:1.5px;
     border:1px solid white;
-    padding: 5%;
+    padding: 10%;
     font-size: 0.9rem;
+    margin-top: 10%;
+    margin-bottom:5%
 }
 
 .newsletter img {
