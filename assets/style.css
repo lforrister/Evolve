@@ -216,6 +216,7 @@ ul {
     background-color:black;
     display:none;
     padding-bottom: 5%;
+    border-bottom: 1px solid white;
 }
 
 .archives-mobile h3 {
@@ -226,17 +227,13 @@ ul {
 }
 
 /* EMAIL SIGN UP */
-/* .newsletter {
-    display:flex;
-    align-items:center; 
-} */
 
-.newsletter h3 {
+.newsletter h3, .newsletter-mobile h3 {
     letter-spacing:4.5px;
     padding-top:3%
 }
 
-.newsletter p {
+.newsletter p, .newsletter-mobile p {
     width:90%;
     margin-left:auto;
     margin-right:auto;
@@ -251,6 +248,26 @@ ul {
 .newsletter img {
     width:100%;
     padding: 3% 5% 8% 5%;
+}
+
+.newsletter-mobile {
+    background-color:black;
+    display:none;
+}
+
+.newsletter-mobile p {
+    padding: 5%;
+    margin-top:5%;
+    margin-bottom:2%;
+
+}
+
+.newsletter-mobile .submit-btn {
+    margin-top:3%;
+}
+
+.newsletter-mobile .form-field {
+    padding:5px;
 }
 
 /* .email-signup {

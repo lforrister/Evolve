@@ -45,6 +45,7 @@
         display:none;
     }
 
+
     .mySlides1 h3, .mySlides2 h3, .mySlides3 h3 {
         padding-top:5%;
         font-size:1.5rem;
@@ -94,7 +95,16 @@
 
     .archives-mobile {
         display:block;
+        margin-top: 3%;
     }
+
+    .newsletter-mobile {
+        display:block;
+        padding: 3% 5% 10% 5%;
+    }
+
+ 
+
 }
 
 /* ipad */ 
@@ -113,7 +123,7 @@
         }
 
         .newsletter {
-            display: none;
+            display:none;
         }
 
         .archives-mobile {
@@ -126,6 +136,11 @@
             padding-bottom:2%;
 
 
+        }
+
+        .newsletter-mobile {
+            display:block;
+            padding: 3% 10% 10% 10%;
         }
 
     }

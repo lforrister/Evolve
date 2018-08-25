@@ -30,6 +30,14 @@ $(".year-16").clone().appendTo($(".year-16-mobile"));
 $(".posts16").clone().appendTo($(".year-16-mobile"));
 
 
+// Newsletter Mobile
+
+$(".email-signup").clone().appendTo($(".newsletter-mobile"));
+// $(".newsletter").click(function() {
+//     alert("TEST!");
+// });
+
+
 
 /* TABBED WIDGET */
 
