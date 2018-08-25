@@ -254,29 +254,58 @@ $(".december").click(function () {
 
 // Carousel:
 
-var slideIndex = 1;
-showDivs(slideIndex);
+// var slideIndex = 1;
+// showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
+// function plusDivs(n) {
+//   showDivs(slideIndex += n);
+// }
+
+// function currentDiv(n) {
+//   showDivs(slideIndex = n);
+// }
+
+// function showDivs(n) {
+//   var i;
+//   var x = document.getElementsByClassName("mySlides1");
+//   var dots = document.getElementsByClassName("demo");
+//   if (n > x.length) {slideIndex = 1}    
+//   if (n < 1) {slideIndex = x.length}
+//   for (i = 0; i < x.length; i++) {
+//      x[i].style.display = "none";  
+//   }
+//   for (i = 0; i < dots.length; i++) {
+//      dots[i].className = dots[i].className.replace(" w3-white", "");
+//   }
+//   x[slideIndex-1].style.display = "flex";  
+//   dots[slideIndex-1].className += " w3-white";
+// }
+
+
+var slideIndex = [1, 1, 1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3"]
+showDivs(1, 0);
+showDivs(1, 1);
+showDivs(1, 2);
+
+function plusDivs(n, no) {
+    showDivs(slideIndex[no] += n, no);
+
+    function currentDiv(n) {
+        showDivs(slideIndex = n);
+    }
 }
 
-function currentDiv(n) {
-  showDivs(slideIndex = n);
+function showDivs(n, no) {
+    var i;
+    var x = document.getElementsByClassName(slideId[no]);
+    if (n > x.length) { slideIndex[no] = 1 }
+    if (n < 1) { slideIndex[no] = x.length }
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+
+
+    x[slideIndex[no] - 1].style.display = "flex";
 }
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "flex";  
-  dots[slideIndex-1].className += " w3-white";
-}

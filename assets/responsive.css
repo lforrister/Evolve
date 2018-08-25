@@ -45,16 +45,16 @@
         display:none;
     }
 
-    .mySlides h3 {
+    .mySlides1 h3, .mySlides2 h3, .mySlides3 h3 {
         padding-top:5%;
         font-size:1.5rem;
     }
 
-    .mySlides p {
+    .mySlides1 p, mySlides2 p, .mySlides3 p {
         font-size: 0.9rem;
     }
 
-    .mySlides img {
+    .mySlides1 img, .mySlides2 img, .mySlides3 img{
         width:80%;
         margin-left:auto;
         margin-right:auto;

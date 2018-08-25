@@ -80,11 +80,6 @@ ul {
     /* background: rgba(0,0,0,0.2); */
 }
 
-#navbarNavDropdown {
-    /* padding-right: 0;
-    text-align:center; */
-    /* background-color: rgba(0, 0, 0, 0.8); */
-}
 
 .main-menu .navbar,
     {
@@ -113,6 +108,7 @@ ul {
 
 .eyebrow-links {
     -webkit-justify-content: flex-end;
+    justify-content: flex-end;
     padding-right: 5rem;
     width:auto;
 }
@@ -297,6 +293,7 @@ ul {
     border-bottom: none;
     -moz-border-radius: 4px 4px 0 0;
     -webkit-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
 }
 
 .tab a {
@@ -329,6 +326,7 @@ ul {
     padding: 10px;
     -moz-border-radius: 0 4px 4px 4px;
     -webkit-border-radius: 0 4px 4px 4px;
+    border-radius: 0 4px 4px 4px;
 }
 
 
@@ -389,7 +387,7 @@ select {
 }
 
 /* Carousel Styles */
-.mySlides {
+.mySlides1, .mySlides2, .mySlides3 {
     display:none
 }
 .w3-left, .w3-right, .w3-badge {
@@ -402,17 +400,17 @@ select {
     border-radius: 50%;
 }
 
-.mySlides h3 {
+.mySlides1 h3, .mySlides2 h3, .mySlides3 h3 {
     font-size: 2rem;
 
 }
 
-.mySlides hr {
+.mySlides1 hr, .mySlides2 hr, .mySlides3 hr {
     border-top: 1.5px solid rgba(0,0,0,.1);
     width:95%;
 }
 
-.mySlides p {
+.mySlides1 p, .mySlides2 p, .mySlides3 p {
     font-family: 'Raleway', sans-serif;
     font-weight:300;
     font-size:1rem;
@@ -422,16 +420,16 @@ select {
     margin-right: auto;
 }
 
-.mySlides img {
+.mySlides1 img, .mySlides2 img, .mySlides3 img {
     width:100%;
 }
 
-.mySlides .evolve-btn {
+.mySlides1 .evolve-btn, .mySlides2 .evolve-btn, .mySlides3 .evolve-btn {
     padding:1% 8%;
     color:white;
 }
 
-.mySlides .evolve-btn:hover {
+.mySlides1 .evolve-btn:hover, .mySlides2 .evolve-btn:hover, .mySlides3 .evolve-btn:hover {
     color:#181818;
 }
 
@@ -476,7 +474,7 @@ select {
 }
 
 .w3-border {
-    border:1px solid grey !important:
+    border:1px solid grey !important;
 }
 
 .w3-container:after, .w3-container:before, .w3-panel:after, .w3-panel:before, .w3-row:after, .w3-row:before, .w3-row-padding:after, .w3-row-padding:before, .w3-cell-row:before, .w3-cell-row:after, .w3-clear:after, .w3-clear:before, .w3-bar:before, .w3-bar:after {
