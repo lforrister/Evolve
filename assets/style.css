@@ -225,6 +225,55 @@ ul {
    font-size:1.25rem;
 }
 
+/* EMAIL SIGN UP */
+.newsletter {
+    display:flex;
+    align-items:center; 
+}
+
+.newsletter h3 {
+    letter-spacing:6.5px;
+    padding-bottom:5%;
+}
+
+.newsletter p {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    letter-spacing:1.5px;
+    border:1px solid white;
+    padding: 5%;
+    font-size: 0.9rem;
+}
+
+
+.spacer {
+    height:80px;
+    border-bottom: 1px solid white;
+}
+
+
+
+form {
+    padding-top:5%;
+}
+.form-field {
+    width:90%;
+    text-align: center;
+    opacity:0.95;
+}
+
+.submit-btn {
+    background-color:#d6ebf8;
+    width:100%;
+    width:90%;
+    margin-top:5%;
+    border-radius: 4px;
+    border:none;
+    color:#181818;
+
+}
+
 
 /* MAIN ARTICLES SECTION */ 
 
@@ -353,7 +402,7 @@ ul {
 /* TABBED WIDGET */
 
 .tab-widget {
-    padding: 7% 5%;
+    padding: 0 5%;
 }
 
 #dialog-link {
