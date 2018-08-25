@@ -233,7 +233,6 @@ ul {
 
 .newsletter h3 {
     letter-spacing:6.5px;
-    padding-bottom:5%;
 }
 
 .newsletter p {
@@ -246,16 +245,21 @@ ul {
     font-size: 0.9rem;
 }
 
+.newsletter img {
+    width:100%;
+    padding: 3% 5% 8% 5%;
+}
+
 
 .spacer {
     height:80px;
-    border-bottom: 1px solid white;
+    border-bottom: 5px solid white;
 }
 
 
 
 form {
-    padding-top:5%;
+    padding-top:3%;
 }
 .form-field {
     width:90%;
