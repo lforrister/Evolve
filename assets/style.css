@@ -226,10 +226,10 @@ ul {
 }
 
 /* EMAIL SIGN UP */
-.newsletter {
+/* .newsletter {
     display:flex;
     align-items:center; 
-}
+} */
 
 .newsletter h3 {
     letter-spacing:6.5px;
@@ -254,8 +254,8 @@ ul {
 }
 
 .email-signup {
-    margin-left:5%;
-    margin-right:5%;
+    margin-left:8%;
+    margin-right:8%;
 }
 
 

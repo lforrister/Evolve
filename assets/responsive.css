@@ -130,10 +130,16 @@
 
 /* ipad pro */
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+@media only screen and (min-width: 992px) and (max-width: 1366px) {
     .sidenav {
         display:visible;
     }
+
+    .newsletter h3 {
+        letter-spacing:3px;
+        font-size:0.8rem;
+    }
+
 
 
 }
