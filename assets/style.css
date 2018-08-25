@@ -80,6 +80,12 @@ ul {
     /* background: rgba(0,0,0,0.2); */
 }
 
+#navbarNavDropdown {
+    /* padding-right: 0;
+    text-align:center; */
+    /* background-color: rgba(0, 0, 0, 0.8); */
+}
+
 .main-menu .navbar,
     {
     padding: .5rem 0;
@@ -197,7 +203,7 @@ ul {
 }
 
 .posts {
-    padding: 3% 0 2% 0;
+    padding: 3% 0 1% 0;
 }
 
 
