@@ -63,7 +63,7 @@ ul {
 
 .display-4-thin {
     font-family: 'Raleway', sans-serif;
-    font-weight:300;
+    font-weight:400;
 
 }
 
@@ -72,6 +72,8 @@ ul {
     font-size: 0.6rem;
     font-weight:600;
 }
+
+
 
 
 /* NAVBAR STYLES */
@@ -141,9 +143,11 @@ ul {
 
 /* BANNER IMAGE STYLES */
 .banner-image {
-    background-image: url("images/dominik-martin-100802-unsplash-2-2000x1335.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url("images/dominik-martin-100802-unsplash-2-2000x1335.jpg");
     background-size:cover;
     background-repeat: no-repeat;
+    background-position:center;
 }
 
 
@@ -209,6 +213,10 @@ ul {
 
 .posts {
     padding: 3% 0 1% 0;
+}
+
+.posts18, .posts17, .posts16 {
+    display:none;
 }
 
 /* Archives - Mobile */
@@ -369,7 +377,8 @@ form {
 
 .text {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -377,6 +386,7 @@ form {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    padding:0;
 }
 
 

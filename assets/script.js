@@ -1,8 +1,8 @@
 $(document).ready(function () {
     console.log("jQuery Working");
-    $(".posts18").hide();
-    $(".posts17").hide();
-    $(".posts16").hide();
+    // $(".posts18").hide();
+    // $(".posts17").hide();
+    // $(".posts16").hide();
     $(".jan").hide();
     $(".feb").hide();
     $(".march2").hide();
