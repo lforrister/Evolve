@@ -144,7 +144,7 @@ ul {
 /* BANNER IMAGE STYLES */
 .banner-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
-    url("images/dominik-martin-100802-unsplash-2-2000x1335.jpg");
+    url("images/banner-image.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
