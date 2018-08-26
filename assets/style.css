@@ -145,20 +145,22 @@ ul {
 /* BANNER IMAGE STYLES */
 .banner-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
-    url("images/banner-image.png");
+    url("images/banner-image.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
+
 }
 
 
 
 .banner-image .display-1 {
-    line-height:4.2;
+    line-height:3.5;
     padding-top:3%;
     font-weight:700;
     letter-spacing:10px;
-    font-size:5rem;
+    font-size:6rem;
+
 }
 
 
@@ -376,7 +378,7 @@ form {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.container-test:hover .overlay {
+.container-test:hover .overlay, .container-test:active .overlay {
     opacity: 1;
 }
 
