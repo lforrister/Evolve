@@ -48,15 +48,19 @@
 
     .mySlides1 h3, .mySlides2 h3, .mySlides3 h3 {
         padding-top:5%;
-        font-size:1.5rem;
+        font-size:1.3rem;
+         margin-bottom:0.3rem;
     }
 
-    .mySlides1 p, mySlides2 p, .mySlides3 p {
-        font-size: 0.9rem;
+    .mySlides1 p,
+    .mySlides2 p,
+    .mySlides3 p {
+        font-size: 0.8rem;
+       
     }
 
     .mySlides1 img, .mySlides2 img, .mySlides3 img{
-        width:80%;
+        width:75%;
         margin-left:auto;
         margin-right:auto;
         display:block;
@@ -75,18 +79,20 @@
     }
 
     .ui-tabs .ui-tabs-nav li {
-        width:105px;
+        width:90px;
 
     }
 
     .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
         width:0;
         padding: .5rem;
+        font-size:0.9rem;
         
     }
 
     .tab-widget h1 {
-        font-size:2rem;
+        font-size:1.9rem;
+        letter-spacing:1px;
     }
 
     .ui-tabs .ui-tabs-nav {
@@ -141,6 +147,19 @@
             display:block;
             padding: 3% 10% 10% 10%;
         }
+
+            .tab-widget h1 {
+                font-size: 2rem;
+                letter-spacing: 2px;
+            }
+
+              .ui-tabs .ui-tabs-nav li {
+                  width: 105px;
+              }
+
+              .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+                  font-size: 1rem;
+              }
 
     }
 
