@@ -161,15 +161,39 @@
                   font-size: 1rem;
               }
 
+        .mySlides1 p,
+        .mySlides2 p,
+        .mySlides3 p {
+            font-size: 0.8rem;
+        }
+
+        .mySlides1 h3,
+        .mySlides2 h3,
+        .mySlides3 h3 {
+            font-size: 1.5rem;
+        }
+
     }
 
 
 /* ipad pro */
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+@media only screen and (min-width: 992px) and (max-width: 1366px) {
     .sidenav {
         display:visible;
     }
+
+        .mySlides1 p,
+        .mySlides2 p,
+        .mySlides3 p {
+            font-size: 0.8rem;
+        }
+
+        .mySlides1 h3,
+        .mySlides2 h3,
+        .mySlides3 h3 {
+            font-size: 1.5rem;
+        }
 
 
 
