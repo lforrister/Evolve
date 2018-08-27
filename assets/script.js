@@ -261,7 +261,24 @@ $(".december").click(function () {
 });
 
 
+// Pop Up/ Email Input:
 
+$(".submit-btn").click(function () {
+    $("#email-popup").show();
+    var input = $(".email-input").val();
+    console.log(input);
+    $(".email-text").append("<p class='text-white text-center display-4-thin'> Check your inbox at <strong> " + input + "</strong> for all the latest updates on workouts, recipes, special perks and more. </p>");
+
+
+});
+
+$(".popup-close").click(function () {
+    $("#email-popup").hide();
+});
+
+$(".popup-close").click(function () {
+    $("#email-popup").hide();
+});
 
 // Carousels:
 
@@ -292,12 +309,3 @@ function showDivs(n, no) {
     x[slideIndex[no] - 1].style.display = "flex";
 }
 
-// Pop Up:
-
-$(".submit-btn").click(function() {
-    $("#email-popup").show();
-});
-
-$(".popup-close").click(function() {
-    $("#email-popup").hide();
-});
