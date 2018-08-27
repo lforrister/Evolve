@@ -85,12 +85,10 @@ ul {
 
 .eyebrow .navbar {
     padding: .5rem 0;
-    /* background: rgba(0,0,0,0.2); */
 }
 
 
-.main-menu .navbar,
-    {
+.main-menu .navbar {
     padding: .5rem 0;
     background: rgba(0, 0, 0, 0.5);
 }
@@ -179,9 +177,7 @@ ul {
     width: 100%;
 }
 
-/* .sidebar {
-    background-color:black;
-} */
+
 
 .archives h3 {
     letter-spacing:11.5px;
@@ -300,9 +296,6 @@ ul {
     height:80px;
 }
 
-
-
-
 form {
     padding-top:3%;
 }
@@ -378,8 +371,7 @@ form {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.container-test:hover .overlay,
-.container-test:active .overlay {
+.container-test:hover .overlay {
     opacity: 1;
 }
 
@@ -396,7 +388,6 @@ form {
     text-align: center;
     padding:0;
 }
-
 
 
 /* TABBED WIDGET */
@@ -451,9 +442,6 @@ form {
     border-radius: 0 4px 4px 4px;
 }
 
-
-
-/* TABBED WIDGET */
 
 .tab-widget {
     padding: 5% 5% 7% 5%;
@@ -577,7 +565,6 @@ select {
 }
 
 
-
 .w3-tooltip, .w3-display-container {
     position: relative;
     margin:3%;
@@ -681,7 +668,6 @@ select {
     background: rgba(0, 0, 0, 1);
     text-decoration: none;
 }
-
 
 
 /* FOOTER */
