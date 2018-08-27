@@ -378,7 +378,8 @@ form {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.container-test:hover .overlay, .container-test:active .overlay {
+.container-test:hover .overlay,
+.container-test:active .overlay {
     opacity: 1;
 }
 

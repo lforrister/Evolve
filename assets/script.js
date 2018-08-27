@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    console.log("jQuery Working");
+    console.log("Click Test");
     // $(".posts18").hide();
     // $(".posts17").hide();
     // $(".posts16").hide();
