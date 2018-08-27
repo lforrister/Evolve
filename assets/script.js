@@ -1,8 +1,5 @@
 $(document).ready(function () {
-    console.log("Click Test");
-    // $(".posts18").hide();
-    // $(".posts17").hide();
-    // $(".posts16").hide();
+    console.log("jQuery Test");
     $(".jan").hide();
     $(".feb").hide();
     $(".march2").hide();
@@ -21,8 +18,6 @@ $(document).ready(function () {
 });
 
 // Archives Mobile
-// $(".archives").clone().appendTo($(".archives-mobile"));
-// $(".archives h3").clone().appendTo($(".am-header"));
 $(".year-18").clone().appendTo($(".year-18-mobile"));
 $(".posts18").clone().appendTo($(".year-18-mobile"));
 $(".year-17").clone().appendTo($(".year-17-mobile"));
@@ -32,11 +27,8 @@ $(".posts16").clone().appendTo($(".year-16-mobile"));
 
 
 // Newsletter Mobile
-
 $(".email-signup").clone().appendTo($(".newsletter-mobile"));
-// $(".newsletter").click(function() {
-//     alert("TEST!");
-// });
+
 
 
 
@@ -271,35 +263,7 @@ $(".december").click(function () {
 
 
 
-// Carousel:
-
-// var slideIndex = 1;
-// showDivs(slideIndex);
-
-// function plusDivs(n) {
-//   showDivs(slideIndex += n);
-// }
-
-// function currentDiv(n) {
-//   showDivs(slideIndex = n);
-// }
-
-// function showDivs(n) {
-//   var i;
-//   var x = document.getElementsByClassName("mySlides1");
-//   var dots = document.getElementsByClassName("demo");
-//   if (n > x.length) {slideIndex = 1}    
-//   if (n < 1) {slideIndex = x.length}
-//   for (i = 0; i < x.length; i++) {
-//      x[i].style.display = "none";  
-//   }
-//   for (i = 0; i < dots.length; i++) {
-//      dots[i].className = dots[i].className.replace(" w3-white", "");
-//   }
-//   x[slideIndex-1].style.display = "flex";  
-//   dots[slideIndex-1].className += " w3-white";
-// }
-
+// Carousels:
 
 var slideIndex = [1, 1, 1];
 var slideId = ["mySlides1", "mySlides2", "mySlides3"]
