@@ -265,20 +265,13 @@ $(".december").click(function () {
 
 $(".submit-btn").click(function () {
     $("#email-popup").show();
-    var input = $(".email-input").val();
-    console.log(input);
-    $(".email-text").append("<p class='text-white text-center display-4-thin'> Welcome to the #FITFAM <strong> " + input + "</strong>! Check your inbox for all the latest updates on workouts, recipes, special perks and more. </p>");
-
-
 });
 
 $(".popup-close").click(function () {
     $("#email-popup").hide();
 });
 
-$(".popup-close").click(function () {
-    $("#email-popup").hide();
-});
+
 
 // Carousels:
 
